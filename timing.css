@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 200px;
+    background-color: lightpink;
+    text-transform: capitalize;
+}
+
+.current-time{
+    height: 100px;
+    width: 500px;
+    background-color: grey;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 25px;
+    text-transform: capitalize;
+    box-shadow: 2px 2px 5px black;
+    font-weight: bold;
+}
+
